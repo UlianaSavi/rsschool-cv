@@ -1,4 +1,5 @@
 # Uliana Savitskaya 
+![фото](../../../ava.jpg)
 ## 3D artist
 ***
 ## *My contacts:*
