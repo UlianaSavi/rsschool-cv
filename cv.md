@@ -33,5 +33,16 @@ function spin Words(string){
 
 ![uliana-](https://user-images.githubusercontent.com/105851981/171633461-fd303c03-ed43-47f7-8efb-0b5a015e24c7.png)
 
+## *Work experience:*
+* Tasks from **codewars**
+* Freelance Exchanges (**Kwork, Weblancer, Upwork**)
+* GOFOX (3d artist)
 
+## *Education:*
+* **Secondary education**
+* Online **Test** Pad, 3d modeling in Blender
+* HTML/CSS **Tutorials** on YouTube
 
+## *Languages:*
+* Russian - **Native**
+* English - **C1**
