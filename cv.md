@@ -22,5 +22,16 @@
 * Unity
 * 2d paintitng
 *********
+## *Example: (3D and code)*
+**Code**
+```
+function spin Words(string){
+ return string.replace(/\w{5,}/g, word => word.split('').reverse().join(''));
+}
+``` 
+**3D**
+
+![uliana-](https://user-images.githubusercontent.com/105851981/171633461-fd303c03-ed43-47f7-8efb-0b5a015e24c7.png)
+
 
 
