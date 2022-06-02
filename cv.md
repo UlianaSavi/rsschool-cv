@@ -1,4 +1,5 @@
 # Uliana Savitskaya 
+![ava](https://user-images.githubusercontent.com/105851981/171629539-7a66a4f1-adb9-4bb4-ad84-63ac645d593a.jpg)
 ## 3D artist
 ***
 ## *My contacts:*
