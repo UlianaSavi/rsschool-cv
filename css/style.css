@@ -1,1 +1,153 @@
- /* soon there will be beauty here */
+/* MAIN */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --hover-color: #fc6dfc;
+    --background-color-container: #AD66D5;
+    --main-text-color: #FFCCFF;
+    --highLite-text-color: #e8bfff;
+    --background-color: #434046;
+}
+
+
+body {
+    background: var(--background-color);
+    color: var(--main-text-color);
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.container {
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    width: 1040px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    background: var(--background-color-container);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover,
+.skills__items li:hover,
+.experience__items li:hover,
+.education__items li:hover,
+.languages__items li:hover {
+    color: var(--hover-color);
+}
+
+.title {
+    text-transform: uppercase;
+    color: chartreuse;
+}
+
+ul {
+    padding-inline-start: 0;
+    list-style-type: none;
+}
+
+.contacts__item,
+.skills__item,
+.experience__item,
+.education__item,
+.languages__item {
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+
+/* HEADER */
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav a {
+    font-size: 21px;
+    padding: 10px 10px 0 0;
+}
+
+/* PREVIEW */
+
+.preview__inner {
+    position: relative;
+    max-width: 1040px;
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    background-image: url(../assets/preview-bg.jpg);
+    background-position-y: 100%;
+}
+
+.preview__inner__photo {
+    width: 180px;
+    border: 12px solid var(--background-color-container);
+    position: absolute;
+    top: -13px;
+    left: -11px;
+}
+
+.preview__inner__title,
+.preview__inner__subtitle {
+    position: absolute;
+    top: 47%;
+    left: 15px;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+/* CONTACTS */
+
+.contacts__item a {
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+/* ABOUT */
+.about__inner__text {
+    font-size: 22px;
+}
+
+/* EXEMPLE */
+.exemple__3d__img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exemple__3d__img img {
+    height: 300px;
+    transition: all 0.14s ease-in-out;
+}
+
+.exemple__3d__img img:hover {
+    transform: scale(1.05);
+}
+
+/* LAUNGAGES */
+.languages__items span {
+    font-weight: 600;
+}
+
+/* FOOTER */
+.footer__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 50px;
+}
+
+.footer__year {
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+path:hover {
+    fill:  var(--hover-color);
+}
