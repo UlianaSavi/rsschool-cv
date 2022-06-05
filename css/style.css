@@ -115,6 +115,39 @@ ul {
 }
 
 /* EXEMPLE */
+.code {
+    display: block;
+    overflow-x: auto;
+    padding: 13px;
+    color: rgb(0, 0, 0);
+    background: #FFCCFF none repeat scroll 0% 0%;
+}
+
+.highlited__orange {
+    color: rgb(149, 65, 33);
+}
+
+.highlited__darkblue {
+    color: rgb(68, 85, 136);
+    font-weight: 700;
+}
+
+.highlited__darkgreen {
+    color: rgb(33, 145, 97);
+}
+
+.highlited__liteblue {
+    color: rgb(0, 0, 255);
+}
+
+.highlited__litegreen {
+    color: rgb(64, 160, 112);
+}
+
+.highlited__blue {
+    color: rgb(0, 134, 179);
+}
+
 .exemple__3d__img {
     display: flex;
     justify-content: space-between;
@@ -149,5 +182,5 @@ ul {
 }
 
 path:hover {
-    fill:  var(--hover-color);
+    fill: var(--hover-color);
 }
