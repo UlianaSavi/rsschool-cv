@@ -6,17 +6,16 @@
 
 :root {
     --hover-color: #fc6dfc;
-    --background-color-container: #AD66D5;
-    --main-text-color: #FFCCFF;
+    --background-color-container: #ad66d5;
+    --main-text-color: #ffccff;
     --highLite-text-color: #e8bfff;
     --background-color: #434046;
 }
 
-
 body {
     background: var(--background-color);
     color: var(--main-text-color);
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
 }
 
 .container {
@@ -115,13 +114,13 @@ ul {
 }
 
 /* EXEMPLE */
-/* EXEMPLE */
+
 .code {
     display: block;
     overflow-x: auto;
     padding: 13px;
     color: rgb(0, 0, 0);
-    background: #FFCCFF none repeat scroll 0% 0%;
+    background: #ffccff none repeat scroll 0% 0%;
 }
 
 .highlited__orange {
@@ -183,5 +182,19 @@ ul {
 }
 
 path:hover {
-    fill:  var(--hover-color);
+    fill: var(--hover-color);
+}
+
+/* SVG */
+.pass__style {
+    opacity: 1;
+    fill: #7ffe00;
+}
+
+.svg__style {
+    shape-rendering: geometricPrecision;
+    text-rendering: geometricPrecision;
+    image-rendering: optimizeQuality;
+    fill-rule: evenodd;
+    clip-rule: evenodd;
 }
