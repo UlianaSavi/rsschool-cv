@@ -43,7 +43,7 @@
                 <h2 class="title">My contacts:</h2>
                 <ul class="contacts__items">
                     <li class="contacts__item">
-                        <span>Phone: <a href="tel:+79685633667">+7 (968)-563-36-67</a></span>
+                        <span>Phone: <a href="tel:+79685633667">+7&nbsp;(968)&#8209;563&#8209;36&#8209;67</a></span>
                     </li>
                     <li class="contacts__item">
                         <span>E-mail: <a href="mailto:uljasha.sav@gmail.com"> uljasha.sav@gmail.com</a></span>
@@ -94,14 +94,13 @@
             <h2 class="title">Exemple</h2>
             <div class="exemple__code">
                 <h3 class="exemple__code__title">JavaScript:</h3>
-                <pre
-                    style="display: block; overflow-x: auto; padding: 13px; color: rgb(0, 0, 0); background: #FFCCFF none repeat scroll 0% 0%;"><span><span style="color: rgb(149, 65, 33);">function</span> <span style="color: rgb(68, 85, 136); font-weight: 700;">digital_root</span> (<span style="color: rgb(0, 0, 255);">n</span>) </span>{
-                    <span style="color: rgb(149, 65, 33);">while</span> (n &gt; <span class="hljs-number" style="color: rgb(64, 160, 112);">9</span>) {
-                      n = <span style="color: rgb(33, 145, 97);">`<span style="color: rgb(149, 65, 33);">${n}</span>`</span>.split(<span style="color: rgb(33, 145, 97);">''</span>).map(<span style="color: rgb(0, 134, 179);">Number</span>).reduce((acc, num) =&gt; {
-                        <span style="color: rgb(149, 65, 33);">return</span> acc + num;
-                      }, <span  style="color: rgb(64, 160, 112);">0</span>);
+                <pre class="code"><span><span class="highlited__orange">function</span> <span class="highlited__darkblue">digital_root</span> (<span class="highlited__liteblue">n</span>) </span>{
+                    <span class="highlited__orange">while</span> (n &gt; <span class="highlited__litegreen">9</span>) {
+                      n = <span class="highlited__darkgreen">`<span class="highlited__orange" >${n}</span>`</span>.split(<span class="highlited__darkgreen">''</span>).map(<span class="highlited__blue">Number</span>).reduce((acc, num) =&gt; {
+                        <span class="highlited__orange">return</span> acc + num;
+                      }, <span class="highlited__darkblue">0</span>);
                     }
-                    <span style="color: rgb(149, 65, 33);">return</span> n;
+                    <span class="highlited__orange">return</span> n;
                   }</pre>
             </div>
             <div class="exemple__3d">
