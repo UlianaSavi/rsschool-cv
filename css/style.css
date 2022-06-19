@@ -32,11 +32,7 @@ a {
     text-decoration: none;
 }
 
-a:hover,
-.skills__items li:hover,
-.experience__items li:hover,
-.education__items li:hover,
-.languages__items li:hover {
+a:hover {
     color: var(--hover-color);
 }
 
