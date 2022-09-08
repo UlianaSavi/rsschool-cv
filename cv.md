@@ -36,7 +36,6 @@ function spin Words(string){
 ## *Work experience:*
 * Tasks from **codewars**
 * Freelance Exchanges (**Kwork, Weblancer, Upwork**)
-* GOFOX (3d artist)
 
 ## *Education:*
 * **Secondary education**
