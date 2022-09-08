@@ -39,6 +39,7 @@ function spin Words(string){
 
 ## *Education:*
 * **Secondary education**
+* JS-frontend(stage0) from **RsSchool**
 * Online **Test** Pad, 3d modeling in Blender
 * HTML/CSS **Tutorials** on YouTube
 
